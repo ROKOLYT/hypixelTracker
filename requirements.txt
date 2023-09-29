@@ -1,3 +1,2 @@
 matplotlib
-sqlite
 requests
