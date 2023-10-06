@@ -4,11 +4,14 @@ import threading
 from time import sleep
 import os
 
+# Update delay in seconds
+UPDATE_DELAY = 300
+
 def update_data() -> None:
     api = bazaar_api()
     while True:
         api.update_data()
-        sleep(60)
+        sleep(UPDATE_DELAY)
         
 def runtime_status() -> None:
     # Running... animation
