@@ -8,7 +8,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 
-# Features
+# Features 
 * Track hypixel bazaar
 * Get historical data
 * plot graphs
